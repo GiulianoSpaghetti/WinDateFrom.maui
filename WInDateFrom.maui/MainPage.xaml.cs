@@ -12,7 +12,7 @@ public partial class MainPage : ContentPage
     {
         DateTime d = DateTime.Now;
         TimeSpan differenza = d - data.Date.Date;
-        risultato.Text = $"Hai incontrotato {nome.Text} circa {differenza.Days} giorni fa.";
+        risultato.Text = $"Hai incontrato {nome.Text} circa {differenza.Days} giorni, {differenza.Hours} ore e {differenza.Minutes} fa.";
         Preferences.Set("Data", data.Date.ToString());
         Preferences.Set("Nome", nome.Text);
     }
