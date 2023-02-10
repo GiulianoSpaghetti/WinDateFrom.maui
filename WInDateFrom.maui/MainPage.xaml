@@ -33,7 +33,7 @@
         x:Name="backgroundImage"
         Source="background.jpg"
         Aspect="AspectFill"
-        HorizontalOptions="Start" Grid.RowSpan="4" Grid.ColumnSpan="2"/>
+        HorizontalOptions="Start" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
         <Label x:Name="tbnome" Grid.Row="0" Grid.Column="0" Text="" TextColor="White" />
         <Entry x:Name="nome" Grid.Row="0" Grid.Column="1" TextColor="White" />
             <Label x:Name="tbdata" Grid.Row="1" Grid.Column="0" Text="" TextColor="White" />
@@ -43,5 +43,5 @@
         <Label x:Name="risultato" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="White"/>
         <Label x:Name="anniversario" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="White" />
     </Grid>
-    </ContentPage.Content>
+  </ContentPage.Content>
 </ContentPage>

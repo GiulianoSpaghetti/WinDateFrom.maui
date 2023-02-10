@@ -24,7 +24,7 @@ public partial class MainPage : ContentPage
     {
         DateTime d = DateTime.Now;
         TimeSpan differenza = d - data.Date;
-        if (differenza.Days < 0)
+        if (differenza.Milliseconds<0)
         {
 #if ANDROID
             risultato.Text= GetResource(Resource.String.invalid_rvalue);
