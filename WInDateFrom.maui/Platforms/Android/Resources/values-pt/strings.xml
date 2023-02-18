@@ -12,5 +12,7 @@
 	<string name="invalid_rvalue">Valor inválido</string>
 	<string name="is_your_anniversary">É seu aniversário</string>
 	<string name="is_your_mesiversary">É o aniversário do seu mês</string>
-	<string name="informations">Informação</string>
+	<string name="informations">Informações</string>
+	<string name="application">Aplicativo</string>
+
 </resources>
