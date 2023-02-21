@@ -38,14 +38,14 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
 	  <ApplicationId>org.numerone.altervista.windatefrom</ApplicationId>
-	  <ApplicationDisplayVersion>3.3</ApplicationDisplayVersion>
-	  <ApplicationVersion>10</ApplicationVersion>
+	  <ApplicationDisplayVersion>3.4</ApplicationDisplayVersion>
+	  <ApplicationVersion>11</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
 	  <ApplicationId>org.numerone.altervista.windatefrom</ApplicationId>
-	  <ApplicationDisplayVersion>3.3</ApplicationDisplayVersion>
-	  <ApplicationVersion>10</ApplicationVersion>
+	  <ApplicationDisplayVersion>3.4</ApplicationDisplayVersion>
+	  <ApplicationVersion>11</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
