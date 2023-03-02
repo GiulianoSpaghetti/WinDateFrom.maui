@@ -14,4 +14,7 @@
 	<string name="is_your_mesiversary">Es tu mes aniversario</string>
 	<string name="informations">Información</string>
 	<string name="application">Aplicación</string>
+	<string name="days_are_passed">dias han pasado</string>
+	<string name="info">Una aplicación simple que dice cuánto tiempo pasó desde una fecha determinada</string>
+	<string name="delete_settings">Eliminar configuración</string>
 </resources>

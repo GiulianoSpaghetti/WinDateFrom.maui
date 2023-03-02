@@ -12,6 +12,11 @@ public partial class MainPage : ContentPage
         tbdata.Text = App.GetResource(Resource.String.insert_the_date);
         calcola.Text = App.GetResource(Resource.String.calculate);
         Title = App.GetResource(Resource.String.application);
+#else
+        tbnome.Text = "Insert the name:";
+        tbdata.Text = "Insert the date:";
+        calcola.Text = "Calculate";
+        Title = "Application";
 #endif
     }
 
@@ -25,6 +30,8 @@ public partial class MainPage : ContentPage
         {
 #if ANDROID
             risultato.Text = App.GetResource(Resource.String.invalid_rvalue);
+#else
+            risultato.Text = "Invalid rvalue";
 #endif
             return;
         }
@@ -36,18 +43,30 @@ public partial class MainPage : ContentPage
                 {
 #if ANDROID
                     anniversario.Text = App.GetResource(Resource.String.is_your_anniversary);
+#else
+                    anniversario.Text = "Is your anniversary";
 #endif
                 }
                 else
                 {
 #if ANDROID
                     anniversario.Text = App.GetResource(Resource.String.is_your_mesiversary);
+#else
+                    anniversario.Text = "Is your mesiversary";
 #endif
                 }
             }
         }
 #if ANDROID
+    if (nome.Text=="")
+        risultato.Text= $"{differenza.Days} {App.GetResource(Resource.String.days_are_passed)}";
+    else
         risultato.Text = $"{App.GetResource(Resource.String.you_meet)} {nome.Text} {App.GetResource(Resource.String.about)} {differenza.Days} {App.GetResource(Resource.String.days_ago)}.";
+#else
+        if (nome.Text == "")
+            risultato.Text = $"{differenza.Days} days have passed";
+        else
+            risultato.Text = $"You met {nome.Text} about {differenza.Days} days ago.";
 #endif
 
         Preferences.Set("Data", data.Date.ToString());

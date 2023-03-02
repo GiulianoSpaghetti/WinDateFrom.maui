@@ -14,4 +14,7 @@
 	<string name="is_your_mesiversary">Is your mesiversary</string>
 	<string name="informations">Informations</string>
 	<string name="application">Application</string>
+	<string name="days_are_passed">days have passed</string>
+	<string name="info">A simple app that says how long passed from a given date</string>
+	<string name="delete_settings">Delete Settings</string>
 </resources>

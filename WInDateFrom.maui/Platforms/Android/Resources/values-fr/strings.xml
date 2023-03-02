@@ -14,6 +14,7 @@
 	<string name="is_your_mesiversary">C\'est votre mois anniversaire</string>
 	<string name="informations">Information</string>
 	<string name="application">Application</string>
-
-	
+	<string name="days_are_passed">jours se sont écoulés</string>
+	<string name="info">Une application simple qui indique combien de temps s\'est écoulé depuis une date donnée</string>
+	<string name="delete_settings">Supprimer les paramètres</string>
 </resources>
