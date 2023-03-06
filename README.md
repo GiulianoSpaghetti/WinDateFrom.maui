@@ -1,5 +1,5 @@
 # WinDateFrom.maui
-WinDatFrom in MAUI
+WinDateFrom in MAUI
 
 # Gameplay
 
