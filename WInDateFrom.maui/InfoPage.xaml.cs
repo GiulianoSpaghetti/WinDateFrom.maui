@@ -19,7 +19,14 @@ public partial class InfoPage : ContentPage
     }
     private void DeleteOpzioni_Click(object sender, EventArgs e)
     {
+#if ANDROID
+        long cal = Preferences.Get("calendar", 0L);
+#endif
         Preferences.Clear();
+#if ANDROID
+        Preferences.Set("calendar", cal);
+        WinDateFrom.maui.Platforms.Android.CalendarHelperService.ResetCalendar(Preferences.Get("calendar", 0L));
+#endif
     }
 
 }

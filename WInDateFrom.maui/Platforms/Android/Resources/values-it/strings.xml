@@ -21,4 +21,5 @@
 	<string name="calendar_error">Errore durante l\'inserimento. Probabilmente all\'app manca l\'accesso in scrittura</string>
 	<string name="btncalendar">Inserisci nel calendario</string>
 	<string name="invalid_name">Nome non valido</string>
+	<string name="calendar_not_created">Impossibile creare il calendario</string>
 </resources>

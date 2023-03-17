@@ -21,4 +21,5 @@
 	<string name="calendar_error">Erro ao inserir. Provavelmente o aplicativo está sem acesso de gravação</string>
 	<string name="btncalendar">Inserir no calendário</string>
 	<string name="invalid_name">Nome inválido</string>
+	<string name="calendar_not_created">Não foi possível criar o calendário</string>
 </resources>

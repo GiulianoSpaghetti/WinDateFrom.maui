@@ -21,4 +21,5 @@
 	<string name="inserted_into_calendar">Inserted into calendar</string>
 	<string name="calendar_error">Error inserting. Probably the app is missing write access</string>
 	<string name="btncalendar">Insert into calendar</string>
+	<string name="calendar_not_created">Unable to create calendar</string>
 </resources>
