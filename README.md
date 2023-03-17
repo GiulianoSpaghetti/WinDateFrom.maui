@@ -9,6 +9,9 @@ WinDateFrom in MAUI
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.numerone.altervista.windatefrom))
 
+# Bibliografia
+https://stackoverflow.com/questions/20923771/create-android-local-calendar-without-sync
+
 # Donazioni
 
 [![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
