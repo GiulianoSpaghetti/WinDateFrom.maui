@@ -17,4 +17,8 @@
 	<string name="days_are_passed">days have passed</string>
 	<string name="info">A simple app that says how long passed from a given date</string>
 	<string name="delete_settings">Delete Settings</string>
+	<string name="invalid_name">Invalid name</string>
+	<string name="inserted_into_calendar">Inserted into calendar</string>
+	<string name="calendar_error">Error inserting. Probably the app is missing write access</string>
+	<string name="btncalendar">Insert into calendar</string>
 </resources>

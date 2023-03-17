@@ -12,16 +12,20 @@ public partial class MainPage : ContentPage
         tbdata.Text = App.GetResource(Resource.String.insert_the_date);
         calcola.Text = App.GetResource(Resource.String.calculate);
         Title = App.GetResource(Resource.String.application);
+        btnCalendario.Text=App.GetResource(Resource.String.btncalendar);
+        btnCalendario.IsEnabled = false;
 #else
         tbnome.Text = "Insert the name:";
         tbdata.Text = "Insert the date:";
         calcola.Text = "Calculate";
         Title = "Application";
+        btnCalendario.IsVisible = false;
 #endif
     }
 
     private void calcola_Click(object sender, EventArgs e)
     {
+        btnCalendario.IsEnabled = false;
         risultato.Text = "";
         anniversario.Text = "";
         DateTime d = DateTime.Now;
@@ -60,8 +64,10 @@ public partial class MainPage : ContentPage
 #if ANDROID
     if (nome.Text=="")
         risultato.Text= $"{differenza.Days} {App.GetResource(Resource.String.days_are_passed)}";
-    else
+    else {
         risultato.Text = $"{App.GetResource(Resource.String.you_meet)} {nome.Text} {App.GetResource(Resource.String.about)} {differenza.Days} {App.GetResource(Resource.String.days_ago)}.";
+        btnCalendario.IsEnabled=true;
+    }
 #else
         if (nome.Text == "")
             risultato.Text = $"{differenza.Days} days have passed";
@@ -71,6 +77,22 @@ public partial class MainPage : ContentPage
 
         Preferences.Set("Data", data.Date.ToString());
         Preferences.Set("Nome", nome.Text);
+    }
+
+    private void OnCalendar_Click(object sender, EventArgs e)
+    {
+#if ANDROID 
+            risultato.Text="";
+            btnCalendario.IsEnabled = false;
+            if (nome.Text=="") {
+                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.invalid_name);
+                return;
+            }
+            if (!WinDateFrom.maui.Platforms.Android.CalendarHelperService.Set(nome.Text,  data.Date))
+                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.calendar_error);
+            else
+                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.inserted_into_calendar);
+#endif
     }
 }
 
