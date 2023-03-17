@@ -12,6 +12,8 @@ WinDateFrom in MAUI
 # Bibliografia
 https://stackoverflow.com/questions/20923771/create-android-local-calendar-without-sync
 
+https://stackoverflow.com/questions/17045515/deleting-event-from-calendar-in-android-programmatically
+
 # Donazioni
 
 [![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
