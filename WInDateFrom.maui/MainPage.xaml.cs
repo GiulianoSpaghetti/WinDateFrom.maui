@@ -10,17 +10,6 @@ public partial class MainPage : ContentPage
         nome.Text = Preferences.Get("Nome", "");
 #if ANDROID
         cal = Preferences.Get("calendar", 0L);
-        if (cal == 0)
-        {
-            cal = WinDateFrom.maui.Platforms.Android.CalendarHelperService.CreateCalendar();
-            if (cal == 0)
-            {
-                risultato.Text = App.GetResource(Resource.String.calendar_not_created);
-                btnCalendario.IsVisible = false;
-            }
-            else
-                Preferences.Set("calendar", cal);
-        }
         tbnome.Text = App.GetResource(Resource.String.insert_the_name);
         tbdata.Text = App.GetResource(Resource.String.insert_the_date);
         calcola.Text = App.GetResource(Resource.String.calculate);
@@ -101,6 +90,17 @@ public partial class MainPage : ContentPage
                 risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.invalid_name);
                 return;
             }
+            if (cal == 0)
+            {
+                cal = WinDateFrom.maui.Platforms.Android.CalendarHelperService.CreateCalendar();
+                if (cal == 0)
+                {
+                    risultato.Text = App.GetResource(Resource.String.calendar_not_created);
+                    btnCalendario.IsVisible = false;
+                }
+                else
+                    Preferences.Set("calendar", cal);
+        }
         if (!WinDateFrom.maui.Platforms.Android.CalendarHelperService.Set(cal, nome.Text,  data.Date))
                 risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.calendar_error);
             else
