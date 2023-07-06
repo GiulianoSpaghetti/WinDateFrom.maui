@@ -20,5 +20,10 @@ namespace WinDateFrom.maui.Platforms.Android
             {
                 MainActivity.Instance.ResetCalendar(cal);
             }
+
+            public static void SaveDate(long cal, string nome, DateTime d)
+            {
+            MainActivity.Instance.CalendarHelper(cal, nome, d);
+            }
     }
 }

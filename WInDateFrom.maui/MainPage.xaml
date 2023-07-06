@@ -29,7 +29,7 @@
             <Label x:Name="tbnome" Grid.Row="0" Grid.Column="0" />
             <Entry x:Name="nome" Grid.Row="0" Grid.Column="1" Text=""/>
             <Label x:Name="tbdata" Grid.Row="1" Grid.Column="0" />
-            <DatePicker x:Name="data" Grid.Row="1" Grid.Column="1" TextColor="White"/>
+            <DatePicker x:Name="data" Grid.Row="1" Grid.Column="1" />
             <Button x:Name="btnCalendario" Clicked="OnCalendar_Click" Grid.Row="2" Grid.Column="0" Text="Insersci nel calendario" Opacity="0.5" />
             <Button x:Name="calcola" Text="" Clicked="calcola_Click" Grid.Row="2" Grid.Column="1" Opacity="0.5"/>
             <Label x:Name="risultato" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="" />

@@ -1,4 +1,5 @@
 ﻿using Android;
+using Android.Accounts;
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
@@ -74,6 +75,9 @@ public class MainActivity : MauiAppCompatActivity
     public long createLocalCalendar()
     {
         ContentValues values = new ContentValues();
+        Account[] accounts = AccountManager.Get(this).GetAccountsByType("com.gmail");
+        if (accounts.Length == 0)
+            return 0;
         values.Put(
                 Calendars.InterfaceConsts.AccountName,
         "WinDateFrom");
@@ -90,13 +94,19 @@ public class MainActivity : MauiAppCompatActivity
                 Calendars.InterfaceConsts.CalendarColor,
                 0xffff0000);
         values.Put(
+        Calendars.InterfaceConsts.CalendarAccessLevel,
+        (int)Android.Provider.CalendarAccess.AccessOwner);
+        values.Put(
+                Calendars.InterfaceConsts.OwnerAccount,
+        accounts[0].Name);
+        values.Put(
                 Calendars.InterfaceConsts.CalendarTimeZone,
         "Europe/Rome");
         Android.Net.Uri.Builder builder =
             CalendarContract.Calendars.ContentUri.BuildUpon();
         builder.AppendQueryParameter(
                 Calendars.InterfaceConsts.AccountName,
-        "org.alertvista.numerone.windatefrom");
+        "org.altervista.numerone.windatefrom");
         builder.AppendQueryParameter(
                 Calendars.InterfaceConsts.AccountType,
                 CalendarContract.AccountTypeLocal);

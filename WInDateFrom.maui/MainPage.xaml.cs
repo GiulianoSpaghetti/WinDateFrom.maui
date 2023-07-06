@@ -2,14 +2,13 @@
 
 public partial class MainPage : ContentPage
 {
-    private long cal;
     public MainPage()
     {
         InitializeComponent();
-        data.Date = DateTime.Parse(Preferences.Get("Data", DateTime.Now.ToString()));
-        nome.Text = Preferences.Get("Nome", "");
+        data.Date = new DateTime(Preferences.Get("anno", DateTime.Now.Year), Preferences.Get("mese", DateTime.Now.Month), Preferences.Get("giorno", DateTime.Now.Day));
+        nome.Text = Preferences.Get("nome", "");
 #if ANDROID
-        cal = Preferences.Get("calendar", 0L);
+        
         tbnome.Text = App.GetResource(Resource.String.insert_the_name);
         tbdata.Text = App.GetResource(Resource.String.insert_the_date);
         calcola.Text = App.GetResource(Resource.String.calculate);
@@ -76,36 +75,28 @@ public partial class MainPage : ContentPage
         else
             risultato.Text = $"You met {nome.Text} about {differenza.Days} days ago.";
 #endif
-
-        Preferences.Set("Data", data.Date.ToString());
-        Preferences.Set("Nome", nome.Text);
+        Preferences.Set("giorno", data.Date.Day);
+        Preferences.Set("mese", data.Date.Month);
+        Preferences.Set("anno", data.Date.Year);
+        Preferences.Set("nome", nome.Text);
     }
 
     private void OnCalendar_Click(object sender, EventArgs e)
     {
-#if ANDROID 
-            risultato.Text="";
-            btnCalendario.IsEnabled = false;
-            if (nome.Text=="") {
-                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.invalid_name);
+#if ANDROID
+        long calendar=Preferences.Get("calendar", 0);
+        if (calendar == 0)
+        {
+            calendar=WinDateFrom.maui.Platforms.Android.CalendarHelperService.CreateCalendar();
+            if (calendar==0) {
+                risultato.Text="Non hai nessun account google sul telefono";
                 return;
-            }
-            if (cal == 0)
-            {
-                cal = WinDateFrom.maui.Platforms.Android.CalendarHelperService.CreateCalendar();
-                if (cal == 0)
-                {
-                    risultato.Text = App.GetResource(Resource.String.calendar_not_created);
-                    btnCalendario.IsVisible = false;
-                }
-                else
-                    Preferences.Set("calendar", cal);
+            } else
+                Preferences.Set("calendar", calendar);
         }
-        if (!WinDateFrom.maui.Platforms.Android.CalendarHelperService.Set(cal, nome.Text,  data.Date))
-                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.calendar_error);
-            else
-                risultato.Text=App.GetResource(WinDateFrom.maui.Resource.String.inserted_into_calendar);
+       WinDateFrom.maui.Platforms.Android.CalendarHelperService.SaveDate(calendar, nome.Text, data.Date);
 #endif
+        ;
     }
 }
 
