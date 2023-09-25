@@ -239,3 +239,4 @@ C:\Users\numer\source\repos\WinDateFrom.maui\WinDateFrom.maui\obj\Release\net7.0
 C:\Users\numer\source\repos\WinDateFrom.maui\WinDateFrom.maui\obj\Release\net7.0-maccatalyst\maccatalyst-x64\WinDateFrom.maui.pdb
 C:\Users\numer\source\repos\WinDateFrom.maui\WinDateFrom.maui\obj\Release\net7.0-maccatalyst\maccatalyst-x64\WinDateFrom.maui.genruntimeconfig.cache
 C:\Users\numer\source\repos\WinDateFrom.maui\WinDateFrom.maui\obj\Release\net7.0-maccatalyst\maccatalyst-x64\ref\WinDateFrom.maui.dll
+C:\Users\numer\Source\Repos\WinDateFrom.maui\WinDateFrom.maui\obj\Release\net7.0-maccatalyst\maccatalyst-x64\WinDateFrom.maui.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinDateFrom.maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+50a2adcadb760ef93696664fb8a5b01273a071a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinDateFrom.maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinDateFrom.maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
