@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="WinDateFrom.maui.es_ES">
+    <system:String x:Key="insert_the_name">Insertar el nombre</system:String>
+    <system:String x:Key="insert_the_date">Insertar la fecha</system:String>
+    <system:String x:Key="calculate">Calcular</system:String>
+    <system:String x:Key="you_meet">Te has conocido</system:String>
+    <system:String x:Key="about">sobre</system:String>
+    <system:String x:Key="days_ago">hace días</system:String>
+    <system:String x:Key="invalid_rvalue">Valor no válido</system:String>
+    <system:String x:Key="is_your_anniversary">Es tu aniversario</system:String>
+    <system:String x:Key="is_your_mesiversary">Es tu mes aniversario</system:String>
+    <system:String x:Key="informations">Información</system:String>
+    <system:String x:Key="application">Aplicación</system:String>
+    <system:String x:Key="days_are_passed">dias han pasado</system:String>
+    <system:String x:Key="info">Una aplicación simple que dice cuánto tiempo pasó desde una fecha determinada</system:String>
+    <system:String x:Key="delete_settings">Eliminar configuración</system:String>
+</ResourceDictionary>

@@ -16,10 +16,10 @@ public partial class MainPage : ContentPage
         btnCalendario.Text=App.GetResource(Resource.String.btncalendar);
         btnCalendario.IsEnabled = false;
 #else
-        tbnome.Text = "Insert the name:";
-        tbdata.Text = "Insert the date:";
-        calcola.Text = "Calculate";
-        Title = "Application";
+        tbnome.Text = $"{App.d["insert_the_name"]}: ";
+        tbdata.Text = $"{App.d["insert_the_date"]}: ";
+        calcola.Text = App.d["calculate"] as string;
+        Title = App.d["application"] as string;
         btnCalendario.IsVisible = false;
 #endif
     }
@@ -36,7 +36,7 @@ public partial class MainPage : ContentPage
 #if ANDROID
             risultato.Text = App.GetResource(Resource.String.invalid_rvalue);
 #else
-            risultato.Text = "Invalid rvalue";
+            risultato.Text = App.d["invalid_rvalue"] as string;
 #endif
             return;
         }
@@ -49,7 +49,7 @@ public partial class MainPage : ContentPage
 #if ANDROID
                     anniversario.Text = App.GetResource(Resource.String.is_your_anniversary);
 #else
-                    anniversario.Text = "Is your anniversary";
+                    anniversario.Text = App.d["is_your_anniversary"] as string;
 #endif
                 }
                 else
@@ -57,7 +57,7 @@ public partial class MainPage : ContentPage
 #if ANDROID
                     anniversario.Text = App.GetResource(Resource.String.is_your_mesiversary);
 #else
-                    anniversario.Text = "Is your mesiversary";
+                    anniversario.Text = App.d["is_your_mesiversary"] as string;
 #endif
                 }
             }
@@ -71,9 +71,9 @@ public partial class MainPage : ContentPage
     }
 #else
         if (nome.Text == "")
-            risultato.Text = $"{differenza.Days} days have passed";
+            risultato.Text = $"{differenza.Days} {App.d["days_are_passed"]}";
         else
-            risultato.Text = $"You met {nome.Text} about {differenza.Days} days ago.";
+            risultato.Text = $"{App.d["you_meet"]} {nome.Text} {App.d["about"]} {differenza.Days} {App.d["days_ago"]}.";
 #endif
         Preferences.Set("giorno", data.Date.Day);
         Preferences.Set("mese", data.Date.Month);

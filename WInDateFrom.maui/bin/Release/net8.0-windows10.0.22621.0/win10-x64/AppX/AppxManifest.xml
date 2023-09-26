@@ -7,7 +7,7 @@
 
     Per ulteriori informazioni sui file manifesto di pacchetto, vedere http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="21961GiulioSorrentino.31974FA39EC07" Publisher="CN=943AD59F-3DA9-4CFA-998C-F0F7FC0A251B" Version="1.1.3.0" ProcessorArchitecture="x64" />
+  <Identity Name="21961GiulioSorrentino.31974FA39EC07" Publisher="CN=Giulio Sorrentino" Version="1.0.0.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="33f66a03-c4a2-4ca7-9786-cc772a522690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WinDateFrom</DisplayName>

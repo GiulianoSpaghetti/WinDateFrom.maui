@@ -9,8 +9,8 @@ public partial class InfoPage : ContentPage
         lblinfo.Text =App.GetResource(Resource.String.info);
         btnDeletePreferences.Text =App.GetResource(Resource.String.delete_settings);
 #else
-        lblinfo.Text = "A simple app for know how long passed from a determinate date";
-        btnDeletePreferences.Text = "Delete Settings";
+        lblinfo.Text = App.d["info"] as string;
+        btnDeletePreferences.Text = App.d["delete_settings"] as string;
 #endif
     }
     private async void OnSito_Click(object sender, EventArgs e)

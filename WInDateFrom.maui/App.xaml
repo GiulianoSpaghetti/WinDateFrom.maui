@@ -5,7 +5,13 @@
              x:Class="WinDateFrom.maui.App">
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary x:Key="en" Source="en_US.xaml" />
+            <ResourceDictionary x:Key="es" Source="es_ES.xaml" />
+            <ResourceDictionary x:Key="fr" Source="fr_FR.xaml" />
+            <ResourceDictionary x:Key="pt" Source="pt_PT.xaml" />
+            <ResourceDictionary x:Key="de" Source="de_DE.xaml" />
+                <ResourceDictionary x:Key="it" Source="it_IT.xaml" />
+                <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>

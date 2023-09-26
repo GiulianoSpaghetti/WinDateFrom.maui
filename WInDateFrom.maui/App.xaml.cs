@@ -1,12 +1,24 @@
-﻿namespace WinDateFrom.maui;
+﻿using System.Globalization;
+
+namespace WinDateFrom.maui;
 
 public partial class App : Application
 {
-	public App()
+    public static ResourceDictionary d;
+
+    public App()
 	{
 		InitializeComponent();
+        try
+        {
+            d = Resources[CultureInfo.CurrentCulture.TwoLetterISOLanguageName] as ResourceDictionary;
 
-		MainPage = new AppShell();
+        }
+        catch (Exception ex)
+        {
+            d = Resources["it"] as ResourceDictionary;
+        }
+        MainPage = new AppShell();
 	}
 #if ANDROID
     public static System.String GetResource(int id)

@@ -9,8 +9,8 @@ public partial class AppShell : Shell
 		scMain.Title = App.GetResource(Resource.String.application);
 		scInfo.Title = App.GetResource(Resource.String.informations);
 #else
-		scMain.Title = "Application";
-		scInfo.Title = "Informations";
+		scMain.Title = App.d["application"] as string;
+		scInfo.Title = App.d["informations"] as string;
 #endif
 	}
 }

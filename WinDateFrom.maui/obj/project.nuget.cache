@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4Y1CshgkERCeF/Hq0LAbCsoxujTtCTC66WvxhUxPesekkuLr/Dyhaybxb8rr8xjt/Uiy42nyUdF69G7QxmkGg==",
+  "dgSpecHash": "88WRMb1JhtUzWONZ8Z3aiIyyL5+fLDgDhDQ90HpMRcI2TN9kWuHGD0XH17ZexPUeqEEAedVGl61Hd04RTzO1Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\numer\\Source\\Repos\\WinDateFrom.maui\\WinDateFrom.maui\\WinDateFrom.maui.csproj",
+  "projectFilePath": "C:\\Users\\numer\\source\\repos\\WinDateFrom.maui\\WinDateFrom.maui\\WinDateFrom.maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.1.23419.4\\microsoft.extensions.configuration.8.0.0-rc.1.23419.4.nupkg.sha512",
