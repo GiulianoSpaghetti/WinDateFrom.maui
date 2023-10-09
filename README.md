@@ -16,6 +16,8 @@ In seguito viene il nome ed il cognome ed è la stessa bellissima madama (si leg
 
 Questa è la normalità femminile, le donne vedono begli uomini per la via, si immaginano col vestito da sposa ma spesso non si ricordano neanche il nome, e ci tengono agli anniversari.
 
+Questa non è matematica ma è psicologia spicciola, significa capire la ... bellissima artista, e capire la... bel panorama, non cod o pes, ma la fifa!
+
 ## Donazioni
 
 http://numerone.altervista.org/donazioni.php
