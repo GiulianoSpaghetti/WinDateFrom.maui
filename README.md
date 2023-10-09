@@ -12,7 +12,7 @@ In pratica una donna vede un bell'uomo e comincia non a farsi castelli per aria,
 
 La canzone fa "mi vedo già in posa, già vestita da sposa" e poi continua "dopo giorni, dopo giorni non mi ricordo neanche come ti chiami".
 Una donna ci tiene non alle scadenze, ma agli anniversari, questo significa che la data di incontro è importante, non la data della prima volta che si fa... l'amore, ma la data del primo incontro.
-In seguito viene il nome ed il cognome ed è la stessa bellissima madama (si legge porca) per eccellenza che dice "dopo giorni con te non mi ricordo neanche come ti chiami". Quindi perché non fae un softare per appuntare la data di incontro ed il nome, ma non per due o tre volte, se no è da porci, ma per una sola persona per volta, magari accompagnato da un pulsante per cancellare nomem e data se le cose non dovessero andare bene.
+In seguito viene il nome ed il cognome ed è la stessa bellissima madama (si legge porca) per eccellenza che dice "dopo giorni con te non mi ricordo neanche come ti chiami". Quindi perché non fare un software per appuntare la data di incontro ed il nome, ma non per due o tre volte, se no è da porci, ma per una sola persona per volta, magari accompagnato da un pulsante per cancellare nomem e data se le cose non dovessero andare bene.
 
 Questa è la normalità femminile, le donne vedono begli uomini per la via, si immaginano col vestito da sposa ma spesso non si ricordano neanche il nome, e ci tengono agli anniversari.
 
