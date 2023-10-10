@@ -17,9 +17,4 @@
 	<string name="days_are_passed">Tage sind vergangen</string>
 	<string name="info">Eine einfache App, die angibt, wie lange ein bestimmtes Datum vergangen ist</string>
 	<string name="delete_settings">Einstellungen löschen</string>
-	<string name="inserted_into_calendar">In Kalender eingefügt</string>
-	<string name="calendar_error">Fehler beim Einfügen. Wahrscheinlich fehlt der App der Schreibzugriff</string>
-	<string name="btncalendar">In Kalender einfügen</string>
-	<string name="invalid_name">Ungültiger Name</string>
-	<string name="calendar_not_created">Kann Kalender nicht erstellen</string>
 </resources>

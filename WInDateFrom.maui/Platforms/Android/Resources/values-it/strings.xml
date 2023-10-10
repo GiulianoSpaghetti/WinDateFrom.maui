@@ -17,9 +17,4 @@
 	<string name="days_are_passed">giorni son passati</string>
 	<string name="info">Una semplice app che dice quanto tempo è passato da una determinata data</string>
 	<string name="delete_settings">Cancella Informazioni</string>
-	<string name="inserted_into_calendar">Inserito nel calendario</string>
-	<string name="calendar_error">Errore durante l\'inserimento. Probabilmente all\'app manca l\'accesso in scrittura</string>
-	<string name="btncalendar">Inserisci nel calendario</string>
-	<string name="invalid_name">Nome non valido</string>
-	<string name="calendar_not_created">Impossibile creare il calendario</string>
 </resources>

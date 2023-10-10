@@ -13,20 +13,16 @@ public partial class MainPage : ContentPage
         tbdata.Text = App.GetResource(Resource.String.insert_the_date);
         calcola.Text = App.GetResource(Resource.String.calculate);
         Title = App.GetResource(Resource.String.application);
-        btnCalendario.Text=App.GetResource(Resource.String.btncalendar);
-        btnCalendario.IsEnabled = false;
 #else
         tbnome.Text = $"{App.d["insert_the_name"]}: ";
         tbdata.Text = $"{App.d["insert_the_date"]}: ";
         calcola.Text = App.d["calculate"] as string;
         Title = App.d["application"] as string;
-        btnCalendario.IsVisible = false;
 #endif
     }
 
     private void calcola_Click(object sender, EventArgs e)
     {
-        btnCalendario.IsEnabled = false;
         risultato.Text = "";
         anniversario.Text = "";
         DateTime d = DateTime.Now;
@@ -67,7 +63,6 @@ public partial class MainPage : ContentPage
         risultato.Text= $"{differenza.Days} {App.GetResource(Resource.String.days_are_passed)}";
     else {
         risultato.Text = $"{App.GetResource(Resource.String.you_meet)} {nome.Text} {App.GetResource(Resource.String.about)} {differenza.Days} {App.GetResource(Resource.String.days_ago)}.";
-        btnCalendario.IsEnabled=true;
     }
 #else
         if (nome.Text == "")
@@ -79,24 +74,6 @@ public partial class MainPage : ContentPage
         Preferences.Set("mese", data.Date.Month);
         Preferences.Set("anno", data.Date.Year);
         Preferences.Set("nome", nome.Text);
-    }
-
-    private void OnCalendar_Click(object sender, EventArgs e)
-    {
-#if ANDROID
-        long calendar=Preferences.Get("calendar", 0);
-        if (calendar == 0)
-        {
-            calendar=WinDateFrom.maui.Platforms.Android.CalendarHelperService.CreateCalendar();
-            if (calendar==0) {
-                risultato.Text="Non hai nessun account google sul telefono";
-                return;
-            } else
-                Preferences.Set("calendar", calendar);
-        }
-       WinDateFrom.maui.Platforms.Android.CalendarHelperService.SaveDate(calendar, nome.Text, data.Date);
-#endif
-        ;
     }
 }
 
