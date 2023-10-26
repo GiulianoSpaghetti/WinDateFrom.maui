@@ -1,6 +1,9 @@
 ## WinDateFrom.maui
 Il primo programma per pc e per smartphone dedicato alle donne che non è un videogioco.
 Serve per rompere il ghiaccio durante una relazione interpersonale, ossia per approcciare.
+Vi segnalo che questa app è oggetto di una campagna da parte di google per l'indipendenza (non la promuiscuità) della donna.
+
+Ed ora vi spiego il perché:
 
 ## L'algoritmo in fase di brevettazione
 
