@@ -1,18 +1,17 @@
 ## WinDateFrom.maui
-Il primo programma per pc e per smartphone dedicato alle donne che non è un videogioco.
+The first program for PC and smartphone dedicated to women that is not a video game.
 
-Serve per rompere il ghiaccio durante una relazione interpersonale, ossia per approcciare.
+It is used to break the ice during an interpersonal relationship, i.e. to approach.
 
-Vi segnalo che questa app è oggetto di una campagna da parte di google per l'indipendenza (non la promuiscuità) della donna, arrivando addirittura a modificare il proprio algoritmo di traduzione delle pagine del play store per ottenere una traduzione perfetta, per cui vi rimando al play store del vostro paese per leggere la dimostrazione dell'algoritmo.
+I would like to point out that this app is the subject of a campaign by Google for the independence (not promuiscuity) of women, even going so far as to modify its translation algorithm of the play store pages to obtain a perfect translation, so I refer you to your country's play store to read the demonstration of the algorithm.
 
-
-## Come installare
+## How to installl
 
 ## Google
-[![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.windatefrom)
+[![google](https://play.google.com/intl/en_US/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.windatefrom)
 
-3 euro sono raggiungibili col Google opinione rewards, non fate i pezzenti che Ve lo ricompilate per risparmiare.
+3 euros can be reached with Google opinion rewards, don't be a beggar and recompile it it to save money.
 
-## Donazioni
+## Donations (in italian)
 
 http://numerone.altervista.org/donazioni.php
