@@ -23,6 +23,14 @@ Questa è la normalità femminile, le donne vedono begli uomini per la via, si i
 
 Questa non è matematica ma è psicologia spicciola, significa capire la ... bellissima artista, e capire la... bel panorama, non cod o pes, ma la fifa!
 
+
+## Come installare
+
+## Google
+[![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.windatefrom)
+
+3 euro sono raggiungibili col Google opinione rewards, non fate i pezzenti che Ve lo ricompilate per risparmiare.
+
 ## Donazioni
 
 http://numerone.altervista.org/donazioni.php
