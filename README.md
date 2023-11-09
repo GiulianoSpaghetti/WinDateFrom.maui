@@ -5,7 +5,7 @@ Ho fatto una pubblicità spudorata al mio software con ogni mezzo, sapete cosa h
 
 Sono arrivati addirittura a cambiarmi l'id del codice di quest'app nel database della google, perché a detta loro "non doveva esistere" perché "non ero laureato".
 
-Per questo motivo vi dico che per ricompilarla serve visual studio 2022, perché visual studio 2019 è in EOL e serve originale, ma se costa solo 3 euro è inutile mettersi a ricompilarla ogni aggiornamento del maui, conviene farlo fare direttamente a me ed evitare di tenersi sempre aggiornato il visual studio, e sopratutto per voi 3 euro una tantum non sono niente, per me sono un panino.
+Per questo motivo vi dico che per ricompilarla serve visual studio 2022, perché visual studio 2019 è in EOL e serve originale, ma se costa solo 3 euro è inutile mettersi a ricompilarla ogni aggiornamento del maui (perché il maui non è esente da bug, come tutto e quindi può essere scoperto un "twilight hack" che vi infetta il cellulare), conviene farlo fare direttamente a me ed evitare di tenersi sempre aggiornato il visual studio, e sopratutto per voi 3 euro una tantum non sono niente, per me sono un panino.
 
 Quello che ho fatto è un lavoro ed andrebbe pagato, non costringetemi a mettere il repository come privato.
 
