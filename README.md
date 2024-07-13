@@ -1,3 +1,5 @@
+![Napoli-Logo](https://github.com/user-attachments/assets/f30e5178-a78d-4f70-99a1-94b4864faeab)
+
 ## La difficile situazione italiana
 Chiedo scusa a tutti per il mio comportamento, ma io mi sono laureato nel 2017 e nessuno ci ha creduto. Anzi mi hanno chiamato "schizofrenico di merda" arrivando a definire falso il mio diploma di laurea con la marca da bollo dietro.
 
