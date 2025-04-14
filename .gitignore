@@ -3,5 +3,5 @@
 ################################################################################
 
 /.vs
-/WInDateFrom.maui/bin
-/WInDateFrom.maui/obj
+/WinDateFrom/bin/Release
+/WinDateFrom/obj
